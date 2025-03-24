@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BG Color</title>
+</head>
+<body>
+    <h1>Choose Your Page Color that you want</h1>
+    <ol>
+        <li>Red</li>
+        <li>Blue</li>
+        <li>Green</li>
+    </ol>
+    <script>
+        var colorchoice = prompt("Enter Your Color Choise(Red, Blue, Green)");
+        if (colorchoice === "Green") {
+            document.body.style.backgroundColor = "Green";
+            document.body.style.color = "white"
+        } else if(colorchoice === "Blue") {
+            document.body.style.backgroundColor = "Blue";
+            document.body.style.color = "white"
+            
+        }else if(colorchoice === "Red"){
+            document.body.style.backgroundColor = "Red";
+            document.body.style.color = "white"
+        }else{
+            alert("Please Enter a Valid Color");
+        }
+    </script>
+</body>
+</html>
